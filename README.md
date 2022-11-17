@@ -2,7 +2,7 @@
 
 Kiera is the theme specialized in presenting writing layout like long essay or technical writing.
 
-It was originally developed by [b. avianto](https://github.com/avianto/hugo-kiera) and now maintained by [funkydan2](//github.com/funkydan2/)
+It was originally developed by [b. avianto](https://github.com/avianto/hugo-kiera) and now maintained by [funkydan2](//github.com/funkydan2/), this is a forked by [hemashushu](https://github.com/hemashushu/hugo-kiera).
 
 ![Screenshot](https://github.com/funkydan2/hugo-kiera/raw/master/images/screenshot.png)
 
@@ -100,7 +100,7 @@ googleAnalytics = "" #Google Analytics ID
     twitter = ""        #Twitter username
     instagram = ""      #Instagram username
     stackoverflow = ""  #StackOverflow username
-    devto = ""          #Dev.to username 
+    devto = ""          #Dev.to username
 
 [params]
     tagline = "the tagline for this website"
@@ -149,7 +149,7 @@ weight : "10"
 Following menus are available:
 
 * `main`, displayed in the navigation bar at the top of the page
-* `footer`, displayed on the lower right, in the footer 
+* `footer`, displayed on the lower right, in the footer
 
 ### Categories & Tags
 

@@ -6,7 +6,11 @@ theme = "hugo-kiera"
 
 paginate = 3
 
+# summary settings
+# https://gohugobrasil.netlify.app/content-management/summaries/
+hasCJKLanguage = true
 summaryLength = 30
+
 enableEmoji = true
 pygmentsCodeFences = true
 

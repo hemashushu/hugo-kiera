@@ -17,6 +17,9 @@ other = "Subscribe"
 [rendered]
 other = "Rendered by"
 
+[theme]
+other = "Theme"
+
 [comments]
 other = "Add/View Comments"
 
