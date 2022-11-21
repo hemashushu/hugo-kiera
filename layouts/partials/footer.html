@@ -17,6 +17,13 @@
                 </li>
             {{ end }}
         </ul>
+        <!--
+        <ul>
+            {{ range $.Site.Home.AllTranslations }}
+            <li><a href="{{ .Permalink }}">{{ .Language.LanguageName }}</a></li>
+            {{ end }}
+        </ul>
+        -->
     </footer>
 </div>
 <script src="{{ "js/scripts.js" | relURL }}"></script>
