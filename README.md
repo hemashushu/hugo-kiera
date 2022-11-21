@@ -16,7 +16,7 @@ It was originally developed by [b. avianto](https://github.com/avianto/hugo-kier
   - [Configuration](#configuration)
     - [Menus](#menus)
     - [Categories & Tags](#categories--tags)
-    - [Images](#images)
+    <!-- - [Images](#images) -->
     - [Code highlight](#code-highlight)
     - [Font Awesome icons](#font-awesome-icons)
     - [Mathematics](#mathematics)
@@ -25,14 +25,14 @@ It was originally developed by [b. avianto](https://github.com/avianto/hugo-kier
 
 ## Main Features
 - Simple, 'no-nonsense' styling.
-- 4 image placements with `figure` support using shortcodes.
-- (Optional) Feature images for posts and twiter cards.
+<!-- - 4 image placements with `figure` support using shortcodes.
+- (Optional) Feature images for posts and twiter cards. -->
 - Excellent code highlight support thanks to Hugo Chroma.
 - Use Font Awesome for icons.
 - Utilize normalize.css for consistent styling (Cloudflare CDN).
-- Use Google Fonts: Ruda (serif) and Roboto Slab (sans-serif).
+<!-- - Use Google Fonts: Ruda (serif) and Roboto Slab (sans-serif). -->
 - [Disqus](https://disqus.com) or [Utterances](https://utteranc.es) comments loaded on demand.
-- Supports downloading extra [Google Fonts](https://fonts.google.com/).
+<!-- - Supports downloading extra [Google Fonts](https://fonts.google.com/). -->
 
 ## Demo
 
@@ -182,7 +182,7 @@ Here, too, it is possible to display the image in full width appending `#full` o
 
 Featured images can override the site logo on the post page, using `replace_site_logo: false` in the frontmatter.
 
-#### Images in text
+<!-- #### Images in text
 
 Kiera supports adding image as `img` tag with standard Markdown:
 
@@ -208,7 +208,7 @@ There are 4 configured placements
 - `#float` or `class="float"` for float left:
 ![float-left](images/screenshots/float-left.png)
 - `#float-right` or `class="float-right"` for float right:
-![float-right](images/screenshots/float-right.png)
+![float-right](images/screenshots/float-right.png) -->
 
 ### Code highlight
 
