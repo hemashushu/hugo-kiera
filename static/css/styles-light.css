@@ -232,6 +232,10 @@ body header p {
     text-align: right;
 }
 
+#container main article {
+    overflow: hidden;
+}
+
 #container main article>pre {
     background-color: #eef7d2;
     overflow-x: auto;

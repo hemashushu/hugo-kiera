@@ -14,4 +14,4 @@ Error.log
 .config
 .hugo_build.lock
 *~
-sync.sh
+sync-to-blog-project.sh
