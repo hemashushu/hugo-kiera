@@ -1,3 +1,3 @@
-module github.com/funkydan2/hugo-kiera
+module github.com/hemashushu/hugo-selina
 
 go 1.15

@@ -1,14 +1,15 @@
-# Kiera Theme for Hugo
+# Selina Theme for Hugo
 
-Kiera is the theme specialized in presenting writing layout like long essay or technical writing.
+Selina is a simple theme specialized in presenting writing layout like technical writing.
 
-It was originally developed by [b. avianto](https://github.com/avianto/hugo-kiera) and now maintained by [funkydan2](//github.com/funkydan2/), this is a forked by [hemashushu](https://github.com/hemashushu/hugo-kiera).
+> This theme was originally developed by [b. avianto](https://github.com/avianto/hugo-kiera) and [funkydan2](//github.com/funkydan2/) named _Hugo-Kiera_, this is a forked by [hemashushu](https://github.com/hemashushu/hugo-selina).
 
-![Screenshot](https://github.com/funkydan2/hugo-kiera/raw/master/images/screenshot.png)
+<!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
 
-- [Kiera Theme for Hugo](#kiera-theme-for-hugo)
+<!-- code_chunk_output -->
+
+- [Selina Theme for Hugo](#selina-theme-for-hugo)
   - [Main Features](#main-features)
-  - [Demo](#demo)
   - [Installation](#installation)
   - [Update the theme](#update-the-theme)
     - [git submodule method](#git-submodule-method)
@@ -16,12 +17,17 @@ It was originally developed by [b. avianto](https://github.com/avianto/hugo-kier
   - [Configuration](#configuration)
     - [Menus](#menus)
     - [Categories & Tags](#categories--tags)
-    <!-- - [Images](#images) -->
+    - [Images](#images)
+      - [Site header](#site-header)
+      - [Featured images for posts](#featured-images-for-posts)
     - [Code highlight](#code-highlight)
     - [Font Awesome icons](#font-awesome-icons)
     - [Mathematics](#mathematics)
-    - [Commenting](#static-commenting)
+    - [Static Commenting](#static-commenting)
+    - [Last Modified Date](#last-modified-date)
   - [Support and Pull Requests](#support-and-pull-requests)
+
+<!-- /code_chunk_output -->
 
 ## Main Features
 - Simple, 'no-nonsense' styling.
@@ -34,17 +40,13 @@ It was originally developed by [b. avianto](https://github.com/avianto/hugo-kier
 - [Disqus](https://disqus.com) or [Utterances](https://utteranc.es) comments loaded on demand.
 <!-- - Supports downloading extra [Google Fonts](https://fonts.google.com/). -->
 
-## Demo
-
-Live demo: [https://themes.gohugo.io/themes/hugo-kiera/](https://themes.gohugo.io/themes/hugo-kiera/)
-
 ## Installation
 
 Change into Hugo directory then:
 
 ```console
 $ cd themes
-$ git clone https://github.com/funkydan2/hugo-kiera.git hugo-kiera
+$ git clone https://github.com/hemashushu/hugo-selina.git hugo-selina
 ```
 
 More detailed instruction at [Hugo Docs](https://gohugo.io/getting-started/).
@@ -53,7 +55,7 @@ Using `git submodule` is recommended instead of `git clone` as per recommendatio
 
 ```console
 $ cd /path/to/the/root/of/your/project/themes
-$ git submodule add https://github.com/funkydan2/hugo-kiera.git
+$ git submodule add https://github.com/hemashushu/hugo-selina.git
 ```
 
 ## Update the theme
@@ -73,8 +75,8 @@ Delete the directory corresponding to the theme and download the latest version 
 
 ```bash
 $ cd /path/to/the/root/of/your/project/
-$ rm -rf themes/hugo-kiera/
-$ git clone https://github.com/funkydan2/hugo-kiera.git themes/hugo-kiera/
+$ rm -rf themes/hugo-selina/
+$ git clone https://github.com/hemashushu/hugo-selina.git themes/hugo-selina/
 ```
 
 ## Configuration
@@ -181,34 +183,6 @@ images: ["/link/to/image"]
 Here, too, it is possible to display the image in full width appending `#full` or `#float` to the URL (see below).
 
 Featured images can override the site logo on the post page, using `replace_site_logo: false` in the frontmatter.
-
-<!-- #### Images in text
-
-Kiera supports adding image as `img` tag with standard Markdown:
-
-`![Image Title](link/to/image)`
-
-to wrap it with `figure` use:
-
-`{{< figure src="/link/to/image" >}}`
-
-The basic placement is 100% width within content and scaled accordingly in smaller screen. Recommended width for image is 600 pixels minimum.
-
-Kiera supports different placement by adding:
-
-- For `img`, use `![Image Title](link/to/image#placement)`
-- For `figure`, use `{{< figure src="/link/to/image" class="placement" >}}`
-
-There are 4 configured placements
-
-- `#full` or `class="full"` for full width.
-![full](images/screenshots/full-image.png)
-- `#mid` or `class="mid"` for middle:
-![float-mid](images/screenshots/mid.png)
-- `#float` or `class="float"` for float left:
-![float-left](images/screenshots/float-left.png)
-- `#float-right` or `class="float-right"` for float right:
-![float-right](images/screenshots/float-right.png) -->
 
 ### Code highlight
 

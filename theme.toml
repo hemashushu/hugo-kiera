@@ -1,15 +1,15 @@
-name = "Kiera"
+name = "Selina"
 license = "MIT"
-licenselink = "https://github.com/funkydan2/hugo-kiera/blob/master/LICENSE.md"
+licenselink = "https://github.com/hemashushu/hugo-selina/blob/master/LICENSE.md"
 description = "Hugo Theme for creative and technical writing"
-homepage = "https://github.com/funkydan2/hugo-kiera"
+homepage = "https://github.com/hemashushu/hugo-selina"
 tags = ["blog","minimal","responsive"]
 features = ["blog","disqus","google-analytics","font-awesome"]
 min_version = "0.55.0"
 
 [author]
-  name = "Daniel Saunders"
-  homepage = "https://github.com/funkydan2"
+  name = "Hemashushu"
+  homepage = "https://github.com/hemashushu"
 
 [original]
   name = "b. avianto"
