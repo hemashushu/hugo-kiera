@@ -9,35 +9,40 @@
 </head>
 
 <body>
-  <div id="container">
-    <header>
-      {{ partial "site_logo" . }}
-      <h1>
-        <a href="{{ relLangURL "/" }}">{{ .Site.Title | markdownify }}</a>
-      </h1>
-
+  <header>
+    <div id="overlay"></div>
+    <div id="content">
       <ul id="social-media">
         {{ if .IsTranslated }}
         {{ range .Translations }}
-          <li>
+            <li>
             <a href="{{ .Permalink }}">{{ .Language.LanguageName }}</a>
-          </li>
+            </li>
         {{ end }}
         {{ end }}
         {{- range .Site.Data.social.social_icons -}}
-          {{- if isset $.Site.Author .id }}
-             <li>
-               <a href="{{ printf .url (index $.Site.Author .id) }}" title="{{ .title }}">
-               <i class="{{ .icon }} fa-lg"></i>
-               </a>
-             </li>
-           {{- end -}}
+            {{- if isset $.Site.Author .id }}
+                <li>
+                <a href="{{ printf .url (index $.Site.Author .id) }}" title="{{ .title }}">
+                <i class="{{ .icon }} fa-lg"></i>
+                </a>
+                </li>
+            {{- end -}}
         {{ end }}
       </ul>
+
+      {{ partial "site_logo" . }}
+      <h1>
+      <a href="{{ relLangURL "/" }}">{{ .Site.Title | markdownify }}</a>
+      </h1>
+
       {{ with .Site.Params.tagline }}
       <p><em>{{ . | markdownify }}</em></p>
       {{ end }}
-    </header>
+    </div>
+  </header>
+  <div id="container">
+
 
     {{ partial "nav" . }}
 
