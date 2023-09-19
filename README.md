@@ -2,6 +2,8 @@
 
 Selina is a simple theme specialized in presenting writing layout like technical writing.
 
+![Screenshot](images/screenshot.jpg)
+
 > This theme was originally developed by [b. avianto](https://github.com/avianto/hugo-kiera) and [funkydan2](//github.com/funkydan2/) named _Hugo-Kiera_, this is a forked by [hemashushu](https://github.com/hemashushu/hugo-selina).
 
 <!-- @import "[TOC]" {cmd="toc" depthFrom=1 depthTo=6 orderedList=false} -->
@@ -10,6 +12,7 @@ Selina is a simple theme specialized in presenting writing layout like technical
 
 - [Selina Theme for Hugo](#selina-theme-for-hugo)
   - [Main Features](#main-features)
+  - [Demo](#demo)
   - [Installation](#installation)
   - [Update the theme](#update-the-theme)
     - [git submodule method](#git-submodule-method)
@@ -39,6 +42,10 @@ Selina is a simple theme specialized in presenting writing layout like technical
 <!-- - Use Google Fonts: Ruda (serif) and Roboto Slab (sans-serif). -->
 - [Disqus](https://disqus.com) or [Utterances](https://utteranc.es) comments loaded on demand.
 <!-- - Supports downloading extra [Google Fonts](https://fonts.google.com/). -->
+
+## Demo
+
+[Hemashushu's homepage](https://hemashushu.github.io/)
 
 ## Installation
 
