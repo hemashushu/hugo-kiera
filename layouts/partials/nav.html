@@ -1,6 +1,9 @@
 {{ $currentPage := . }}
 <nav>
     <ul>
+        <li>
+            <a href="/" title="Home">Home</a>
+        </li>
         {{ range .Site.Menus.main }}
         <li>
             <a class="{{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}active{{end}}" href="{{ .URL | relURL }}">
