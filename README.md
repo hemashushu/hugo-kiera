@@ -124,15 +124,13 @@ To add non-posts related page (eq. About page) to the main menu, adding these li
 TOML:
 
 ```toml
-menu = "main"
-meta = "false"
+menus = "main"
 ```
 
 YAML:
 
 ```yml
-menu: "main"
-meta: "false"
+menus: "main"
 ```
 
 `meta` refers to time, categories, tags and reading time which are not necessary for this kind of page.
@@ -143,7 +141,7 @@ TOML:
 
 ```toml
 title = "Posts"
-menu = "main"
+menus = "main"
 weight = "10"
 ```
 
@@ -151,7 +149,7 @@ YAML:
 
 ```yml
 title : "Posts"
-menu : "main"
+menus : "main"
 weight : "10"
 ```
 
