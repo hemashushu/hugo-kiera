@@ -1,0 +1,8 @@
+<div class="gallery {{ .Get "class" }}">
+    <div class="items">
+    {{ .Inner }}
+    </div>
+    {{ with .Get "caption" }}
+    <div class="caption">{{ . }}</div>
+    {{ end }}
+</div>
